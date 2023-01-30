@@ -1,0 +1,26 @@
+# Fdb version 4
+["pdflatex"] 1675112397 "d:/AUT/My-Own-Resume/resume.tex" "resume.pdf" "resume" 1675112398 2
+  "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1675067181 23159807 d1c2a1cb00cac30d8acc2d464cbeaa72 ""
+  "D:/Apps/MikTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "D:/Apps/MikTeX/tex/generic/iftex/ifluatex.sty" 1643997108 492 1994775aa15b0d1289725a0b1bbc2d4c ""
+  "D:/Apps/MikTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "D:/Apps/MikTeX/tex/generic/iftex/ifxetex.sty" 1643997108 488 4565444a3e75e59cb2702dc42e18f482 ""
+  "D:/Apps/MikTeX/tex/generic/ltxcmds/ltxcmds.sty" 1601735609 18568 4409f8f50cd365c68e684407e5350b1b ""
+  "D:/Apps/MikTeX/tex/latex/base/article.cls" 1669844196 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
+  "D:/Apps/MikTeX/tex/latex/base/ifthen.sty" 1669844196 5319 48d7f3cfa322abd2788e3c09d624b922 ""
+  "D:/Apps/MikTeX/tex/latex/base/size11.clo" 1669844196 8464 63bf71cc1214ffdd38288da73a7ca182 ""
+  "D:/Apps/MikTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "D:/Apps/MikTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "D:/Apps/MikTeX/tex/latex/kvoptions/kvoptions.sty" 1656232881 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
+  "D:/Apps/MikTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
+  "D:/Apps/MikTeX/tex/latex/tools/array.sty" 1654687228 12694 4770336659ba563be5de2e0739d61ddc ""
+  "D:/Apps/MikTeX/tex/latex/xltxtra/xltxtra.sty" 1546510394 5871 8a29af4ad9d707b5280738995d050842 ""
+  "d:/AUT/My-Own-Resume/resume.tex" 1675112397 4014 1a5ee3a7c7f4ed82741c0f1dd10d5b82 ""
+  "parskip.sty" 1675067302 4288 94714aa7f535440f33181fec52a31963 ""
+  "resume.aux" 1675112397 34 3985256e7290058c681f74d7a3565a19 ""
+  "resume.cls" 1675112190 6561 07fe6d374c45b61e1300c5ca89436dc7 ""
+  "resume.tex" 1675112397 4014 1a5ee3a7c7f4ed82741c0f1dd10d5b82 ""
+  (generated)
+  "resume.log"
+  "resume.pdf"
+  (rewritten before read)
