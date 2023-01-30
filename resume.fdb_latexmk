@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1675112397 "d:/AUT/My-Own-Resume/resume.tex" "resume.pdf" "resume" 1675112398 2
+["pdflatex"] 1675113428 "d:/AUT/My-Own-Resume/resume.tex" "resume.pdf" "resume" 1675113429 2
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1675067181 23159807 d1c2a1cb00cac30d8acc2d464cbeaa72 ""
   "D:/Apps/MikTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "D:/Apps/MikTeX/tex/generic/iftex/ifluatex.sty" 1643997108 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -17,8 +17,8 @@
   "D:/Apps/MikTeX/tex/latex/xltxtra/xltxtra.sty" 1546510394 5871 8a29af4ad9d707b5280738995d050842 ""
   "d:/AUT/My-Own-Resume/resume.tex" 1675112397 4014 1a5ee3a7c7f4ed82741c0f1dd10d5b82 ""
   "parskip.sty" 1675067302 4288 94714aa7f535440f33181fec52a31963 ""
-  "resume.aux" 1675112397 34 3985256e7290058c681f74d7a3565a19 ""
-  "resume.cls" 1675112190 6561 07fe6d374c45b61e1300c5ca89436dc7 ""
+  "resume.aux" 1675113428 34 3985256e7290058c681f74d7a3565a19 ""
+  "resume.cls" 1675113426 6559 97240d1d060c1b9415c90c96df69d468 ""
   "resume.tex" 1675112397 4014 1a5ee3a7c7f4ed82741c0f1dd10d5b82 ""
   (generated)
   "resume.log"

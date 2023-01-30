@@ -50,7 +50,6 @@
 % bottom=3cm,
 % a3paper
 % ]{geometry}
-
 \RequirePackage[
 	a4paper,
 	left=0.8in,
