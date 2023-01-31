@@ -64,7 +64,7 @@
 \setlist{noitemsep} % removes spacing from items but leaves space around the whole list
 \setlist[itemize]{topsep=0.25em, leftmargin=1.5pc}
 \setlist[enumerate]{topsep=0.25em, leftmargin=1.5pc}
-
+\pagenumbering{gobble}
 
 \titleformat{\section}         % Customise the \section command 
   {\Large\scshape\raggedright} % Make the \section headers large (\Large),

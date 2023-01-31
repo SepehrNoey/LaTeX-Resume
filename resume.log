@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.1.30)  31 JAN 2023 01:14
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.1.30)  31 JAN 2023 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,20 +529,20 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 LaTeX Font Info:    Font shape `TU/FontAwesome(0)/m/n' will be
 (Font)              scaled to size 10.20007pt on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 48.
+(Font)              <10.95> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 48.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 48.
+(Font)              <6> on input line 28.
 [1
 
 ]
-Overfull \hbox (4.34814pt too wide) in paragraph at lines 71--75
+Overfull \hbox (4.34814pt too wide) in paragraph at lines 82--86
 [][] 
  []
 
 
-Overfull \hbox (5.9139pt too wide) in paragraph at lines 80--85
+Overfull \hbox (4.95024pt too wide) in paragraph at lines 90--95
 [][] 
  []
 
@@ -557,12 +557,12 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13817 strings out of 411512
- 263593 string characters out of 5825326
- 1859960 words of memory out of 5000000
- 33864 multiletter control sequences out of 15000+600000
+ 13818 strings out of 411512
+ 263604 string characters out of 5825326
+ 1858960 words of memory out of 5000000
+ 33865 multiletter control sequences out of 15000+600000
  515578 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,6n,105p,1197b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,6n,105p,1197b,396s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on resume.pdf (2 pages).
