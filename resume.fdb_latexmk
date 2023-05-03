@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1678885228 "d:/AUT/My-Own-Resume/resume.tex" "resume.pdf" "resume" 1678885229 2
+["pdflatex"] 1683097189 "d:/AUT/My-Own-Resume/resume.tex" "resume.pdf" "resume" 1683097190 2
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1675067181 23159807 d1c2a1cb00cac30d8acc2d464cbeaa72 ""
   "D:/Apps/MikTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "D:/Apps/MikTeX/tex/generic/iftex/ifluatex.sty" 1643997108 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -11,15 +11,15 @@
   "D:/Apps/MikTeX/tex/latex/base/size11.clo" 1669844196 8464 63bf71cc1214ffdd38288da73a7ca182 ""
   "D:/Apps/MikTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "D:/Apps/MikTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
-  "D:/Apps/MikTeX/tex/latex/kvoptions/kvoptions.sty" 1656232881 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
+  "D:/Apps/MikTeX/tex/latex/kvoptions/kvoptions.sty" 1656236481 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "D:/Apps/MikTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
-  "D:/Apps/MikTeX/tex/latex/tools/array.sty" 1654687228 12694 4770336659ba563be5de2e0739d61ddc ""
+  "D:/Apps/MikTeX/tex/latex/tools/array.sty" 1654690828 12694 4770336659ba563be5de2e0739d61ddc ""
   "D:/Apps/MikTeX/tex/latex/xltxtra/xltxtra.sty" 1546510394 5871 8a29af4ad9d707b5280738995d050842 ""
-  "d:/AUT/My-Own-Resume/resume.tex" 1678885224 6036 b3f2ff457730ae3a4a39eeccec2fd2f8 ""
+  "d:/AUT/My-Own-Resume/resume.tex" 1683097185 6416 db60c6b974e1119f98ec8e24a37af559 ""
   "parskip.sty" 1675067302 4288 94714aa7f535440f33181fec52a31963 ""
-  "resume.aux" 1678885228 34 3985256e7290058c681f74d7a3565a19 ""
+  "resume.aux" 1683097189 34 3985256e7290058c681f74d7a3565a19 ""
   "resume.cls" 1675172998 6581 6f8b8d70038d0cce1d5fc6f4282a9af8 ""
-  "resume.tex" 1678885224 6036 b3f2ff457730ae3a4a39eeccec2fd2f8 ""
+  "resume.tex" 1683097185 6416 db60c6b974e1119f98ec8e24a37af559 ""
   (generated)
   "resume.log"
   "resume.pdf"
