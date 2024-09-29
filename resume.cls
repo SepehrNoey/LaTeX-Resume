@@ -27,6 +27,7 @@
 
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
+\usepackage[inline]{enumitem}
 
 % use fontawesome
 \RequirePackage{fontawesome}
@@ -41,6 +42,10 @@
   BoldItalicFont = *-bolditalic ,
   SmallCapsFont = Fontin-SmallCaps
 ]{texgyretermes}
+
+\usepackage{fontspec}
+% Define a custom font command for a specific font
+\newfontface\myfont{CMU Concrete Roman}
 
 % \usepackage%
 % [%
@@ -192,16 +197,21 @@
 % Used to create large resume section
 \newenvironment{rSection}[1]{
   \sectionskip
-  \textbf{\MakeUppercase{#1}}
+  {\Large\textbf{#1}}
   \sectionlineskip
   \hrule
-  \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}
-  }
-  \item[]
-}{
-  \end{list}
 }
+
+% Define a no-margin itemize environment
+\newenvironment{noMarginItemize}{
+  \begin{itemize}[left=0pt, label=$\circ$, labelsep=0.5em, itemsep=0.5em, labelwidth=0pt, itemindent=0pt]
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftskip}{0pt}
+  \setlength{\labelsep}{0.5em} % Adjust space between bullet and text
+}{
+  \end{itemize}
+}
+
 
 % Used to format job listing
 \newenvironment{rSubsection}[4]{
@@ -215,7 +225,7 @@
   \emph{#3}                \hfill                  \emph{#4}% Stop a space
   }\smallskip
   % \cdot used for bullets, items non-indented
-  \begin{list}{$\cdot$}{\leftmargin=0em}
+  \begin{list}{$\circ$}{\leftmargin=1em} %\leftmargin=0em
   \itemsep -0.5em \vspace{-0.5em}
 }{
   \end{list}
@@ -225,5 +235,5 @@
 \def\namesize{\huge}
 \def\nameskip{\medskip}
 \def\addressskip{\smallskip}
-\def\sectionskip{\bigskip}
+\def\sectionskip{\smallskip}
 \def\sectionlineskip{\medskip}

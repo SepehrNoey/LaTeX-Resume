@@ -1,129 +1,246 @@
 \documentclass{resume}
 
-\begin{document}
-\name{Sepehr Noey} 
+% 483d8b, 8000000
+\usepackage[dvipsnames]{xcolor}
+\definecolor{hypercolor}{HTML}{800000}
+\definecolor{date}{HTML}{666666} 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=hypercolor,
+}
 
+\begin{document}
+\name{Sepehr Noey Kordkandi} 
+\fontsize{12pt}{16pt}\selectfont
 
 \basicInfo{
-        
-        \email{sepehr.nk.81@gmail.com} \textperiodcentered\ 
-        \phone{(+98) 991-214-6434} \textperiodcentered\ 
-        \linkedin[Sepehr Noey]{https://www.linkedin.com/in/sepehr-noey-085222215} \textperiodcentered\
+        \email{sepehr.nk.81@gmail.com} \textperiodcentered\
+        \homepage[sepehrnoey.github.io]{https://sepehrnoey.github.io/} \textperiodcentered\
+        \linkedin[Sepehr Noey]{https://www.linkedin.com/in/sepehrnoey} \textperiodcentered\
         \github[SepehrNoey]{https://github.com/SepehrNoey}
-        
 }
 
 
-\begin{rSection}{Education}{\bf Amirkabir University of Technology, Tehran} \hfill {\em Sep. 2020 - Present} 
-\\ Bachelor of Computer Engineering\hfill { Overall GPA: 3.86 }
-\end{rSection}
+\begin{rSection}{Education}
+    {{\bf B.Sc in Computer Engineering (Major in Artificial Intelligence)} \hfill {Sep. 2020 - Feb. 2025} 
+    \\ {\em \href{https://www.topuniversities.com/universities/amirkabir-university-technology}{\textbf{\textit{Amirkabir University of Technology (Tehran Polytechnic)}}}, Tehran, Iran} \hspace{7em}{(Expected)}
+    \vspace{-1.7em}
+    \begin{itemize}[topsep=0pt, label=$\circ$]
+        \item {{\bf GPA: } {\myfont 3.91/4 (18.42/20)}}
+        \item {\bf GPA (Last Two Years):} {\myfont 4/4 (19.36/20)}
+    \end{itemize}}
 
-\begin{rSection}{Career Objective}
-    Hardworking and highly motivated College Student in Computer Engineering field at AUT with some out-of college experience 
-    in ML and DL, seeking for opportunities to improve my skills in Machine Learning.
+    {{\bf High School Diploma, Mathematics and Physics} \hfill {Sep. 2017 - Sep. 2020}
+    \\ {\em \href{https://en.wikipedia.org/wiki/Alborz_High_School}{\textbf{\textit{Alborz High School}}}, Tehran, Iran}
+    \vspace{-0.4em}
+    \begin{itemize}[topsep=0pt, label=$\circ$]
+        \item {{\bf GPA: } {\myfont 4/4}}
+    \end{itemize}
+    }
+
 \end{rSection}
 
 \begin{rSection}{Research Interests}
-    \begin{rSubsection}{}{}{}{}
-        \item Artificial Intelligence and Machine Learning
-        \item Artificial Neural Networks and Deep Learning
-        \item Natural Language Processing
-        \item Image Processing
-        \item Algorithms and Theoretical Computer Science
-        \item Software and Service Engineering
-       \end{rSubsection}
+    \begin{tabular}{l @{\hspace{5em}} l @{\hspace{5em}} l}
+        $\circ$ Computer Vision & $\circ$ Generative AI & $\circ$ Multimodal Learning\\
+        $\circ$ Medical Image Processing & $\circ$ Explainable AI & $\circ$ Machine Learning
+    \end{tabular}
 \end{rSection}
 
-\begin{rSection}{Educational Projects}
-    {\bf Lights Out Puzzle and Histogram Matcher}
-    \\This project uses some concepts of Linear Algebra to solve related problems. It's written in Python and 
-    some used libraries are Numpy, Pillow, CV2, etc. Link: \href{https://github.com/SepehrNoey/linear-algebra-final-project}
-    {\em Linear-Algebra-Final-Project}
+\begin{rSection}{Research Experience}
+    \begin{rSubsection}{B.Sc. Thesis\textnormal{\textit{, Amirkabir University of Technology, Tehran, Iran}}}{July 2024 - Present}{Supervisor: \href{https://scholar.google.com/citations?user=EYk7M80AAAAJ&hl=en}{Dr. Mohammad Rahmati}}{}
+        \item Thesis Title: "\textit{Image Editing System Using Generative Text-to-Image Diffusion Models}"
+        \item Leveraged multiple {\bf Generative Text-to-Image Diffusion Models} for diverse {\bf image editing} tasks.
+        \item Editing tasks included Object Addition/Removal, Inpainting/Outpainting, and Style Transfer.
+        \item Incorporated concepts such as {\bf Diffusion Models}, {\bf Cross-Attention Mechanisms}, {\bf Classifier-Free Guidance}, and {\bf Text Embedding Techniques}.
+        \item Employed tools and technologies like {\bf PyTorch}, {\bf Hugging Face}, {\bf Kaggle Notebooks}, and the {\bf W\&B Tracking System}.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Research Intern\textnormal{\textit{, \href{URLhttps://www.topuniversities.com/universities/sharif-university-technology}{Sharif University of Technology}}}, \textnormal{[\href{https://github.com/sepehrNoey/persian-Grammatical-Error-Correction}{GitHub}]}}{July 2023 - Sep. 2023}{Supervisor: \href{https://scholar.google.com/citations?user=ebEhWZwAAAAJ&hl=en}{Dr. Hossein Sameti} at Speech and Language Processing Laboratory (\href{https://slpl.ce.sharif.ir/en/home}{SLPL})}{}
+        \item Utilized {\bf transformer-based models} including mt5 and ParsBERT for fine-tuning on paired datasets for {\bf Persian grammar correction}.
+        \item Involved concepts include {\bf Attention Mechanisms}, Seq2Seq Learning, {\bf Masked Language Modeling}, Transfer Learning, and Parameter-Efficient Fine-Tuning techniques like LoRA.
+        \item Used technologies and tools like {\bf PyTorch}, {\bf Hugging Face Transformers}, {\bf LoRA PEFT}, and the W\&B Tracking System.
+    \end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Selected Projects}
+    {\bf Landscape Image Generation Using Diffusion Models} [\href{https://github.com/SepehrNoey/Landscape-Image-Generation-Using-Diffusion-Models}{GitHub}] \hspace{8em} {Spring 2024}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Implemented first Diffusion Model from the {\bf DDPM} paper.
+        \item Developed {\bf U-Net} architecture in {\bf PyTorch} with downsampling, upsampling, and attention blocks.
+        \item Trained the model to generate 32x32 landscape images over 500 epochs.
+    \end{itemize}
+
+    \newpage
+
+    {\bf Image Captioning Using Vision Transformers} [\href{https://github.com/SepehrNoey/Image-Captioning-Using-Vision-Transformers}{GitHub}] \hspace{12em} {Spring 2024}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Implemented a vision encoder and text decoder to caption input images.
+        \item Used {\bf Sinusoidal Embeddings} for spatial and sequential relations in patches and tokens.
+        \item Used {\bf PyTorch} for implementations and {\bf MS COCO 2014} as the training dataset.
+    \end{itemize}
+
+    {\bf Data Mining Course Projects} [\href{https://github.com/SepehrNoey/Data-Mining}{GitHub}] \hspace{18em} {Spring 2024}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Used classification algorithms like {\bf XGBoost}, {\bf SVM}, {\bf KNN}, Logistic Regression and {\bf Decision Trees}
+        \item Used algorithms like Linear and Polynomial Regression with different loss functions for prediction
+        \item Involved Data Cleaning and used algorithms like {\bf K-Means}, DBScan for clustering them
+        \item Involved using PCA for Dimensionality Reduction and techniques like SMOTE for over-sampling 
+    \end{itemize}
+
+    {\bf Fine-Tuning YOLOv8 for Enhanced Detection in Crowded Scenes} [\href{https://github.com/SepehrNoey/Fine-Tuning-YOLOv8n-for-Enhanced-Detection}{GitHub}] \hspace{3em} {Winter 2023}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Labeled several crowded images with numerous people and cars to create a {\bf custom dataset}.
+        \item Fine-tuned YOLOv8n with the custom dataset for better detection in crowded scenes. 
+        \item Used {\bf LabelImg} for annotation and {\bf Ultralytics} for fine-tuning and {\bf object counting}.
+    \end{itemize}
+
+    {\bf Information Retrieval System} [\href{https://github.com/SepehrNoey/Information-Retrieval}{GitHub}] \hspace{18em} {Winter 2023}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Implemented Boolean and {\bf Ranked Retrieval} systems for Persian texts
+        \item Involved {\bf Data Cleaning} and Preprocessing techniques for more accurate indexing
+        \item Used Champion List and Heap Sort for efficient document retrieval and responding 
+    \end{itemize}
+
+    {\bf Retina Blood Vessels Segmentation Using U-Net} [\href{https://github.com/SepehrNoey/Retina-Blood-Vessels-Segmentation-Using-Unet}{GitHub}] \hspace{11em} {Fall 2023}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Implemented U-Net architecture in {\bf TensorFlow} for blood vessels segmentation.
+        \item Used a combination of DRIVE and HRF datasets for training.
+        \item Employed {\bf data augmentation} techniques, including flips, elastic transforms, and distortions.
+    \end{itemize}
+
+    {\bf ANN Framework From Scratch for Handwritten Digit Recognition} [\href{https://github.com/SepehrNoey/Neural-Networks-Framework-from-Scratch}{GitHub}] \hspace{3em} {Fall 2023}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Implemented a framework from scratch for training Fully-Connected Neural Networks ({\bf FCNN}).
+        \item Developed several optimizers like {\bf SGD}, Momentum, {\bf Adam}, and RMSprop.
+        \item Implemented {\bf MSE} and {\bf Categorical Cross-Entropy} for regression and classification tasks.
+        \item Trained a FCNN using the framework to recognize handwritten digits from the {\bf MNIST} dataset.
+    \end{itemize}
+
+    {\bf Explaining ResNet-50 Predictions with LIME and SHAP} [\href{https://github.com/SepehrNoey/Explaining-ResNet50-Predictions-with-LIME-and-SHAP}{GitHub}] \hspace{6em} {Winter 2022}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Used LIME and SHAP to explain predictions of a {\bf pre-trained ResNet-50} on image classification.
+        \item Compared LIME and SHAP to highlight key image regions affecting predictions.
+    \end{itemize}
+
+    {\bf Classic AI Projects} [\href{https://github.com/SepehrNoey/Artificial-Intelligence-Course-Projects}{GitHub}] \hspace{24em} {Fall 2022}
+    \vspace{-1.6em}
+    \begin{itemize}[topsep=0pt, leftmargin=1em, label=$\circ$]
+        \item Associated projects of Artificial Intelligence course in {\bf UC, Berkeley} (\href{https://ai.berkeley.edu/project_overview.html}{Pacman}).
+        \item Implemented multiple {\bf search algorithms} in AI including BFS, DFS, UCS, Greedy, and A*.
+        \item Involved concepts like CSPs, {\bf MDPs}, Q-Learning, {\bf Reinforcement Learning}, and Bayesian Nets.
+    \end{itemize}
+\end{rSection}
+
+\begin{rSection}{Teaching Experience}
+    {\em Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran}
+    \vspace{-0.5em}
+    \begin{itemize}[label=$\circ$, leftmargin=1em, topsep=0pt]
+        \item {{\bf Teaching Assistant} in Principles of Cloud Computing} \hfill {Fall 2024}\\
+        {Under Supervision of \href{https://scholar.google.com/citations?user=Va7RTUsAAAAJ&hl=en}{\em Dr. Seyyed Ahmad Javadi}}
+
+        \item {{\bf Teaching Assistant} in Operating Systems (Lab)} \hfill {Spring 2024}\\
+        {Under Supervision of \href{https://scholar.google.com/citations?user=ZA9rRWAAAAAJ&hl=en}{\em Dr. Hamid R. Zarandi}}
+
+        \item {{\bf Teaching Assistant} in Computer Networks} \hfill {Spring 2024}\\
+        {Under Supervision of \href{https://dblp.org/pid/203/4521.html}{\em Dr. Fatemeh Ziaeetabar}}
+
+        \item {{\bf Teaching Assistant} in Computer Networks} \hfill {Fall 2023, Spring 2024}\\
+        {Under Supervision of \href{https://scholar.google.com/citations?user=aIiC_6UAAAAJ&hl=en}{\em Dr. Masoud Sabaei}}
+
+        \item {{\bf Head Teaching Assistant} in Microprocessor and Assembly Language} \hfill {Spring 2023, Fall 2023}\\
+        {Under Supervision of \href{https://scholar.google.com/citations?user=PAZOYiAAAAAJ&hl=en}{\em Dr. Hamed Farbeh}}
+
+        \item {{\bf Teaching Assistant} in Applied Linear Algebra} \hfill {Spring 2023}\\
+        {Under Supervision of \href{https://scholar.google.com/citations?user=gxbTUfEAAAAJ&hl=en}{\em Dr. Maryam Amirmazlaghani}}
+
+        \item {{\bf Teaching Assistant} in Advanced Programming} \hfill {Fall 2022}\\
+        {Under Supervision of {\em Dr. S. Roostaei}}
+
+        \item {{\bf Teaching Assistant} in Fundamentals of Computers and Programming} \hfill {Spring 2022}\\
+        {Under Supervision of \href{https://github.com/1995parham}{\em Parham Alvani}}
+
+    \end{itemize}
+\end{rSection}
+
+% \begin{rSection}{Teaching Experience}
+%     {\em Amirkabir University of Technology, Tehran, Iran}
+%     \vspace{-0.5em}
+%     \begin{itemize}[label=$\circ$, leftmargin=1em, topsep=0pt]
+%         \item {{\bf Teaching Assistant} in Principles of Cloud Computing} \hfill {Fall 2024}\\
+%         {Under Supervision of Dr. A. Javadi}
+%         \item {Operating Systems (Lab), }{\em Dr. H. Zarandi} \hfill {Spring 2024}
+%         \item {Computer Networks, }{\em Dr. F. Ziaeetabar} \hfill {Spring 2024}
+%         \item {Computer Networks, }{\em Dr. M. Sabaei} \hfill {Fall 2023, Spring 2024}
+%         \item {Microprocessor and Assembly Language, (Head TA), }{\em Dr. H. Farbeh} \hfill {Spring 2023, Fall 2023}
+%         \item {Applied Linear Algebra, }{\em Dr. M. Amirmazlaghani} \hfill {Spring 2023}
+%         \item {Advanced Programming, }{\em Dr. S. Roostaei} \hfill {Fall 2022}
+%         \item {Fundamentals of Computers and Programming, }{\em Dr. P. Alvani} \hfill {Spring 2022}
+%     \end{itemize}
+% \end{rSection}
+
+\begin{rSection}{Selected Courses}
+    {\bf Major Related Courses}\\
+    \begin{tabular}{@{\hspace{0em}} l @{\hspace{1.5em}} l}
+        $\circ$ Artificial Intelligence: {\myfont 17.6/20} (A) & $\circ$ Computational Intelligence: {\myfont 20/20} (A+)\\
+        $\circ$ Research and Technical Presentation: {\myfont 18.72/20} (A+) & $\circ$ Data Mining: {\myfont 19.1/20} (A+)\\
+        $\circ$ Information Retrieval: {\myfont 20/20} (A+) & $\circ$ Algorithm Design: {\myfont 18.25/20} (A+)\\
+    \end{tabular}
     
-    {\bf AI-Pacman}
-    \\In this project we aim to use AI methods for making more intelligent agents. Concepts used in this project 
-    include search algorithms, CSPs, MDP, Reinforcement Learning, etc. Link: \href{https://github.com/SepehrNoey/Principles_and_Applications_of_AI}
-    {\em Principles-And-Applications-of-AI}
-
-    {\bf Tanks-Game}
-    \\It's a game that simulates a simple 2D tanks' war. Backend is written in Java and The graphics are implemented 
-    with JavaFX. MySql database is also used as storage. Link: \href{https://github.com/SepehrNoey/Clash-Royale}{\em Clash-Royale}
-
-    {\bf Mafia-Game}
-    \\In this project, the popular game 'Mafia' is implemented in Java. The Client-Server network is created with help of 
-    Java Socket Programming. Link: \href{https://github.com/SepehrNoey/Mafia-game/tree/master}{\em Mafia-Game}
-\end{rSection}
-
-\begin{rSection}{Work Experience}
-    \begin{rSubsection}{AI-Medic Co. , Tehran, Iran}{Jun. 2022 - Sep. 2022}{Artificial Intelligence Intern}{}
-     \item Interns at this position participated in some entry-level courses for learning ML and DL and 
-     they were also asked to implement some of these methods to achieve better predictions and solutions 
-     for medical purposes.
-     \item In each project, Interns were required to implement an ML/DL method process to achieve the goal. This 
-     include doing some tasks on datasets like preprocessing, feature extraction, model training, validation and prediction. 
-     Scikit-Learn was the main library used in these projects.  
-    \end{rSubsection}
-
-\newpage
-
-    \begin{rSubsection}{Amirkabir University of Technology, Tehran, Iran}{Feb. 2023 - Present}{Applied Linear Algebra Teaching Assistant}{}
-     \item TAs were responsible for designing projects and assignments, and creating eduacational contents for students.
-     \item Under supervision of Prof. Maryam Amirmazlaghani
-    \end{rSubsection}
-
-    \begin{rSubsection}{Amirkabir University of Technology, Tehran, Iran}{Feb. 2023 - Present}{Microprocessors and Assembly Language Teaching Assistant}{}
-        \item TAs were responsible for designing projects and assignments for students.
-        \item Under supervision of Prof. Hamed Farbeh
-       \end{rSubsection}
-
-    \begin{rSubsection}{Amirkabir University of Technology, Tehran, Iran}{Feb. 2022 - Jan. 2023}{Advanced Programming Teaching Assistant}{}
-     \item TAs were responsible for designing projects and assignments, holding troubleshooting classes and etc. for boosting the overall learning of 
-     students in this course.
-     \item Under supervision of Dr. Kalbasi and Dr. Roostaei 
-    \end{rSubsection}
-
-    \begin{rSubsection}{Amirkabir University of Technology, Tehran, Iran}{Feb. 2022 - Jun. 2022}{Fundamentals of Computer Programming Teaching Assistant}{}
-     \item TAs were responsible for designing projects, assignments, troubleshooting classes and etc. for boosting the overall learning of 
-     students in this course.
-     \item Under supervision of Dr. Alvani
-    \end{rSubsection}
-
-\end{rSection}
-
-\begin{rSection}{Courses}
-    \begin{rSubsection}{Supervised Machine Learning: Regression and Classification}{Feb. 2023 - Mar. 2023}{}{}
-     \item First course of Machine Learning Specialization at \href{https://coursera.org}{coursera.org} instructed by \href{https://www.andrewng.org/}{Andrew Ng.}
-     Some covered concpts are Linear Regression, Binary Classification, Regularization and Normalization methods.
-     \item Earned certificate is available at \href{https://coursera.org/verify/797V4E7YCNWQ}{\em coursera.org.}
-    \end{rSubsection}
-
-    \begin{rSubsection}{Advanced Learning Algorithms}{Feb. 2023 - Present}{}{}
-        \item Second course of Machine Learning Specialization at \href{https://coursera.org}{coursera.org} instructed by \href{https://www.andrewng.org/}{Andrew Ng.}
-        Some covered concpts are Artificial Neural Networks, Decision Trees, Ensemble methods and etc.
-       \end{rSubsection}
-\end{rSection}
-
-\begin{rSection}{Languages}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{73.5ex}} l }
-        English & B2\\
-        Persian & Native Speaker
+    {\bf Online Courses}\\
+    \begin{tabular}{@{\hspace{0em}} l @{\hspace{2.35em}} l}
+        $\circ$ DL for Computer Vision (\href{https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/}{University of Michigan}) & $\circ$ Machine Learning (\href{https://www.coursera.org/account/accomplishments/verify/797V4E7YCNWQ}{Stanford University})\\
+        $\circ$ PyTorch for Deep Learning Bootcamp (\href{https://www.udemy.com/share/107tsS/}{Udemy})
     \end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Technical Skills \& Languages}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{1.6em}} l }
+    Programming Languages: \ & Python, Java, C, Go, C\#, JavaScript\\
+    Libraries \& Frameworks: & PyTorch, TensorFlow, OpenCV, Hugging Face, NumPy, scikit-learn\\
+    Tools: & \LaTeX, Linux, Git, Docker, Jupyter, Kaggle, VS Code\\
+    \end{tabular}
+    {\bf Languages:}
+    \begin{itemize}[topsep=0pt, label=$\circ$]
+        \item {\bf English:} Full Professional Proficiency, TOEFL iBT scheduled for November 13, 2024.
+        \item {\bf Persian:} Native
+    \end{itemize}
 \end{rSection}
 
 
-\begin{rSection}{Technical Strengths}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{50.5ex}} l }
-    Programming Languages \ & Python, Java, C\\
-    Database Management Systems & MySql, SQL\\
-    Version Control & Git, Github
-    \end{tabular}
+\begin{rSection}{Honors \& Awards}
+    \begin{itemize}[label=$\circ$, leftmargin=1em]
+        \item {Ranked among the {\bf top students}, Amirkabir University of Technology} \hfill {2023}
+        \item {Awarded {\bf Tuition-Waiver}, Amirkabir University of Technology} \hfill {2020}
+        \item {Ranked in the {\bf top 0.2\%} among 155,250 participants, \href{https://en.wikipedia.org/wiki/Iranian_University_Entrance_Exam}{Iranian University Entrance Exam}} \hfill {2020}
+        \item {Awarded 2nd place in the mathematics competition of the NOET.} \hfill {2019}
+    \end{itemize}
 \end{rSection}
 
 \begin{rSection}{References}
-    \begin{rSubsection}{\em Dr. Hamed Farbeh}{CE Professor at AUT}{}{}
-     \item Email: \url{farbeh@aut.ac.ir}
-     \item Tel: (+98) 21-6454-2729
-    \end{rSubsection}
+    {\em Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran}
+    \vspace{-0.5em}
+    \begin{itemize}[topsep=0pt, label=$\circ$, leftmargin=1em]
+        \item {\textit{\href{https://scholar.google.com/citations?user=PAZOYiAAAAAJ&hl=en}{Dr. Hamed Farbeh}}}, Assistant Professor, Computer Engineering Department\\
+        Email: \href{mailto:farbeh@aut.ac.ir}{farbeh@aut.ac.ir}
+        
+        \item {\textit{\href{https://scholar.google.com/citations?user=EYk7M80AAAAJ&hl=en}{Dr. Mohammad Rahmati}}}, Professor, Computer Engineering Department\\
+        Email: \href{mailto:rahmati@aut.ac.ir}{rahmati@aut.ac.ir}
+
+        \item {\textit{\href{https://scholar.google.com/citations?user=MYvL3dMAAAAJ&hl=en}{Dr. Alireza Bagheri}}}, Associate Professor, Computer Engineering Department\\
+        Email: \href{mailto:ar_bagheri@aut.ac.ir}{ar\_bagheri@aut.ac.ir}
+
+    \end{itemize}
 \end{rSection}
 
 \end{document}
